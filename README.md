@@ -1,4 +1,4 @@
-Device Tree For Samsung Galaxy Tab 4 8
+Device Tree For Samsung Galaxy Tab 4 8.0
 =========================================
 
 | Basic   | Spec Sheet                  |
@@ -15,7 +15,7 @@ Device Tree For Samsung Galaxy Tab 4 8
 | Camera  | 3.15 MP, 2048 x 1536 pixels |
 
 
-![Galaxy Tab 4 10.1](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-tab-4-101-1.jpg "Galaxy Tab 4 10.1")
+![Galaxy Tab 4 10.1](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-tab-4-80-1.jpg "Galaxy Tab 4 8.0")
 
 This branch is for building CyanogenMod 12.0 Firmware.
 

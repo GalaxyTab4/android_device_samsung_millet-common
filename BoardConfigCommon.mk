@@ -31,7 +31,7 @@ BOARD_KERNEL_CMDLINE := console=null androidboot.console=null androidboot.hardwa
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
-TARGET_KERNEL_SOURCE := kernel/samsung/millet
+TARGET_KERNEL_SOURCE := kernel/samsung/matisse
 TARGET_KERNEL_CONFIG := msm8226-unsec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 

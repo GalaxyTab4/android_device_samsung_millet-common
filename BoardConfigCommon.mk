@@ -18,11 +18,8 @@
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/millet-common/bluetooth
 
-TARGET_BOARD_INFO_FILE := device/samsung/millet-common/board-info.txt
-
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/millet-common/init/init_matisse.c
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/millet-common/init/init_millet.c
 TARGET_UNIFIED_DEVICE := true
 
 # Kernel
@@ -32,7 +29,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
 TARGET_KERNEL_SOURCE := kernel/samsung/matisse
-TARGET_KERNEL_CONFIG := msm8226-unsec_defconfig
+TARGET_KERNEL_CONFIG := msm8226-sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 
 # Lights
@@ -50,19 +47,24 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RECOVERY_FSTAB := device/samsung/millet-common/rootdir/fstab.qcom
 
 # Block_Build
-Bliss_Build_Block := 0
+Bliss_Build_Block := 1
 
 # BlissPop Configs
 BLISS_WIPE_CACHES := 0
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_GRAPHITE := true
+BLISS_STRICT := true
+BLISS_KRAIT := true
 BLISS_PIPE := true
 TARGET_TC_ROM := 4.9-sm
 TARGET_TC_KERNEL := 4.9-sm
 TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 WITH_LZMA_OTA := true
+
+# LOCAL_DISABLE_GRAPHITE := libncurses
+
 
 #SaberMod
 -include vendor/bliss/config/sm.mk

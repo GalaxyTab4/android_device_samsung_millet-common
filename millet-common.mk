@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Proprietary files
-$(call inherit-product, vendor/samsung/matisse-matisse/millet-common-vendor.mk)
+$(call inherit-product, vendor/samsung/millet-common/millet-common-vendor.mk)
 
 # Audio configuration
 PRODUCT_COPY_FILES += \

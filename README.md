@@ -1,4 +1,4 @@
-Device Tree For Samsung Galaxy Tab 4 10.1
+Device Tree For Samsung Galaxy Tab 4 8
 =========================================
 
 | Basic   | Spec Sheet                  |

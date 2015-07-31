@@ -1,0 +1,1 @@
+require version-bootloader=T530XXU1B|T531XXU1B|T535XXU1B

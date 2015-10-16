@@ -46,25 +46,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/millet-common/rootdir/fstab.qcom
 
-# Block_Build
-Bliss_Build_Block := 1
-
-# BlissPop Configs
-BLISS_WIPE_CACHES := 0
-BLISSIFY := true
-BLISS_O3 := true
-BLISS_GRAPHITE := true
-BLISS_STRICT := true
-BLISS_KRAIT := true
-BLISS_PIPE := true
-TARGET_TC_ROM := 4.9-sm
-TARGET_TC_KERNEL := 4.9-sm
-TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
-WITH_LZMA_OTA := true
 
 # LOCAL_DISABLE_GRAPHITE := libncurses
 
 
-#SaberMod
--include vendor/bliss/config/sm.mk
+

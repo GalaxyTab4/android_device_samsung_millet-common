@@ -1,5 +1,0 @@
-
-git tag -d <https://github.com/GalaxyTab4/bliss_device_samsung_millet-common>
-
-
-tag [-n[<1>]] -l [--contains <zip>]

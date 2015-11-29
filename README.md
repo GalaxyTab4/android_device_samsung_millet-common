@@ -17,7 +17,7 @@ Device Tree For Samsung Galaxy Tab 4 8
 
 ![Galaxy Tab 4 10.1](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-tab-4-80-1.jpg "Galaxy Tab 4 8.0")
 
-This branch is for building CyanogenMod 12.0 Firmware.
+This branch is for building CyanogenMod 13.0 Firmware.
 
 TODO:
 =======

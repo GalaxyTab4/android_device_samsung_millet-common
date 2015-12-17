@@ -59,6 +59,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     kernel/samsung/millet/drivers/staging/prima/firmware_bin/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     kernel/samsung/millet/drivers/staging/prima/firmware_bin/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+    wifi.interface=wlan0
+
 
 PRODUCT_PACKAGES += \
     hostapd_default.conf \
@@ -72,6 +74,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsecril-client \
     libsecril-client-sap
+    telephony.lteOnCdmaDevice=0
 
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.secure=0 \
